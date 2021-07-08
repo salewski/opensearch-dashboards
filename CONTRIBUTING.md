@@ -19,9 +19,6 @@ When in doubt, open an issue. For almost any type of contribution the first step
 Only submit your own work (or work you have sufficient rights to submit) - Please make sure that any code or documentation you submit is your work or you have the rights to submit. We respect the intellectual property rights of others, and as part of contributing, we'll ask you to sign your contribution with a "Developer Certificate of Origin" (DCO) that states you have the rights to submit this work and you understand we'll use your contribution. There's more information about this topic in the [DCO section](#developer-certificate-of-origin).
 
 ## Ways to Contribute
-
-Please note: OpenSearch Dashboards is a fork of [Kibana 7.10.2](https://github.com/elastic/kibana), and is currently in a pre-alpha state, so it's still very much a work in progress. If you do find references to Elasticsearch or Kibana (outside of attributions and copyrights) please [open an issue](https://github.com/opensearch-project/OpenSearch-Dashboards/issues).
-
 ### Bug Reports
 
 A bug is when software behaves in a way that you didn't expect and the developer didn't intend. To help us understand what's going on, we first want to make sure you're working from the latest version. Please make sure you're testing against the [latest version](https://github.com/opensearch-project/OpenSearch-Dashboards).
@@ -30,10 +27,9 @@ Once you've confirmed that the bug still exists in the latest version, you'll wa
 
 If you've upgraded to the latest version and you can't find it in our open issues list, then you'll need to tell us how to reproduce it. Please provides us with as much context and information as possible (e.g. OS and browser version).
 
-
 ### Feature Requests
 
-If you've thought of a way that OpenSearch Dashboards could be better, we want to hear about it. We track feature requests using GitHub, so please feel free to open an issue which describes the feature you would like to see, why you need it, and how it should work.
+If you've thought of a way that OpenSearch Dashboards could be better, we want to hear about it. We track feature requests using GitHub, so please feel free to open an [issue](https://github.com/opensearch-project/OpenSearch-Dashboards/issues) which describes the feature you would like to see, why you need it, and how it should work.
 
 ### Documentation Changes
 
@@ -97,5 +93,3 @@ During the PR process, expect that there will be some back-and-forth. Please try
 If we accept the PR, a [maintainer](MAINTAINERS.md) will merge your change and usually take care of backporting it to appropriate branches ourselves.
 
 If we reject the PR, we will close the pull request with a comment explaining why. This decision isn't always final: if you feel we have misunderstood your intended change or otherwise think that we should reconsider then please continue the conversation with a comment on the PR and we'll do our best to address any further points you raise.
-
-w00t!!!

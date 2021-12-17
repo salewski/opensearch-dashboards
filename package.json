@@ -19,7 +19,7 @@
     "number": 8467,
     "sha": "6cb7fec4e154faa0a4a3fee4b33dfef91b9870d9"
   },
-  "homepage": "https://www.opensearch.org",
+  "homepage": "https://opensearch.org",
   "bugs": {
     "url": "http://github.com/opensearch-project/OpenSearch-Dashboards/issues"
   },
@@ -42,7 +42,7 @@
     "opensearch": "node scripts/opensearch",
     "test": "grunt test",
     "test:jest": "node scripts/jest",
-    "test:jest_integration": "node scripts/jest_integration",
+    "test:jest_integration": "node --no-deprecation scripts/jest_integration",
     "test:mocha": "node scripts/mocha",
     "test:mocha:coverage": "grunt test:mochaCoverage",
     "test:ftr": "node scripts/functional_tests",
@@ -301,7 +301,7 @@
     "@types/mock-fs": "^4.10.0",
     "@types/moment-timezone": "^0.5.12",
     "@types/mustache": "^0.8.31",
-    "@types/node": "14.17.32",
+    "@types/node": "^14.17.32",
     "@types/node-forge": "^0.9.5",
     "@types/normalize-path": "^3.0.0",
     "@types/pegjs": "^0.10.1",
@@ -468,7 +468,7 @@
     "zlib": "^1.0.5"
   },
   "engines": {
-    "node": "14.18.1",
+    "node": "14.18.2",
     "yarn": "^1.21.1"
   }
 }
